@@ -1,0 +1,10 @@
+// Comparar Dois Números: Cria duas variáveis (a e b) e imprime qual delas é a maior ou se são iguais.
+let a = Number(prompt("digite um numero: "));
+let b = Number(prompt("digite outro numero: "));
+if(a > b){
+    console.log(a + " é maior que "+ b);
+}else if(a == b){
+    console.log("Os dois numeros são iguais");
+}else{
+    console.log(b + " é maior que "+ a);
+}
