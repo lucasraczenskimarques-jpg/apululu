@@ -1,0 +1,28 @@
+// Verificar Temperatura: Se a temperatura for superior a 30, imprime "Está calor", senão imprime "Está um clima agradável".   
+let temp = Number(prompt("digite a temperatura de agora: "));
+
+if(temp > 30){
+    console.log("Está calor!\n\n\n");
+}else{
+    console.log("Esta em clima agradável!\n\n\n");
+}
+
+--------
+
+
+
+
+
+--------
+// agora com função:
+
+function tenp (grau){
+    grau = Number(prompt("digite a temperatura: "));
+    if(tenp > 30){
+    console.log("Está calor!");
+}else{
+    console.log("Esta em clima agradável!");
+}
+}
+
+tenp();
