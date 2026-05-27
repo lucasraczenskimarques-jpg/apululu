@@ -1,0 +1,5 @@
+let nome = "lucas"
+let idade = 18
+let cidade = "campo mourão"
+
+console.log("Eu me chamo "+nome+" tenho "+idade+" anos de idade e moro em "+cidade);
