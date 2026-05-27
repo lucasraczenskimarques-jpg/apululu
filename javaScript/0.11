@@ -1,0 +1,30 @@
+// Desconto de Quantidade: Se uma pessoa comprar mais de 5 itens, imprime "Tens direito a um desconto!", senão imprime "Sem desconto disponível".
+let itens = Number(prompt("digite a quantidade de itens que comprou: "));
+
+if(itens >= 5){
+    console.log("tens direito a um desconto");
+}else{
+    console.log("sem desconto disponivel!")
+}
+
+-----------
+-----------
+-----------
+-----------
+-----------
+-----------
+-----------
+
+// com função!
+
+function desc (a){
+    
+    a = Number(prompt("digite o numero de itens: "));
+    
+    if(a >= 5){
+    console.log("tens direito a um desconto");
+}else{
+    console.log("sem desconto disponivel!");
+}
+
+desc();
