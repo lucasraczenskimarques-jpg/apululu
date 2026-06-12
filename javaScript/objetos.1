@@ -1,0 +1,8 @@
+let carro = { marca:"honda", modelo:"civic", ano:2026, cor:"preto" };
+console.log(carro.marca, carro.cor);
+carro.cor = "branco";
+carro.preco = 234.000;
+carro.ligar = function (){
+    return "o carro " + this.modelo + " está ligado"
+}
+console.log( carro.ligar());
