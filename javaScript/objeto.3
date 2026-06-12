@@ -1,0 +1,6 @@
+let produto = { nome:"carlos com H", precoOriginal: 54, desconto: 0.30};
+console.log(produto.nome +" - R$ "+ produto.precoOriginal);
+produto.calcularPrecoFinal = function(){
+    return "voce teve "+ (this.desconto*100) +"% de desconto\n"+"O valor final é: "+ (this.precoOriginal -(this.precoOriginal * this.desconto));
+}
+console.log(produto.calcularPrecoFinal());
