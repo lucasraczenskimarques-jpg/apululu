@@ -1,0 +1,10 @@
+const usuarios = [
+    { nome: 'Ana', ativo: true },
+    { nome: 'Rodrigo', ativo: false },
+    { nome: 'Beatriz', ativo: true },
+    { nome: 'Lucas', ativo: false }
+];
+const usuTru = usuarios.filter(usuarios => usuarios.ativo === true);
+usuTru.forEach(usuarios => {
+    console.log("usuario " + usuarios.nome + " está ativo! ");
+});
