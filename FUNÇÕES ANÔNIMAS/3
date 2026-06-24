@@ -1,8 +1,0 @@
-const ehPar = function(numero) {return numero %2 === 0}
-console.log(ehPar(8));
-console.log(ehPar(5));
-
-//arrowfunction
-const ehPar = numero =>  numero %2 === 0;
-console.log(ehPar(8));
-console.log(ehPar(5));
